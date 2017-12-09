@@ -1,0 +1,23 @@
+---
+
+ansigenome_info:
+  galaxy_uri: "https://galaxy.ansible.com/debops/influxdata"
+  github_url: "https://github.com/debops/ansible-influxdata"
+
+  travis: True
+
+  license_url: 'https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)'
+
+  authors:
+    - name:  'Patryk Ściborek'
+      url: ''
+      email: 'patryk@sciborek.com'
+      github: 'scibi'
+
+  synopsis: |
+    The `debops.influxdata` Ansible role can be used to configure APT
+    repositories maintained by the [InfluxData](https://www.influxdata.com/about/)
+    company on Debian and Ubuntu hosts. The APT repositories are used to distribute
+    `chronograf`, `influxdb`, `kapacitor` and `telegraf` APT packages. The role
+    allows only for installation of these packages, additional configuration and
+    management of the installed software is performed by other Ansible roles.
