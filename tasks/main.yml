@@ -46,5 +46,5 @@
 
 - name: Update Ansible facts if they were modified
   action: setup
-  when: (influxdata__register_facts|changed or
-         influxdata__register_install|changed)
+  when: (influxdata__register_facts is changed or
+         influxdata__register_install is changed)
